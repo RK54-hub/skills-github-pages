@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vebbox</title>
+    <style>
+        .r{
+            font-size: xx-large;
+            margin-top:100px;
+            /* border: 1px solid; */
+            align-items: start;
+            margin-left: 100px;
+       
+        }
+        .t{
+            margin-left:70% ;
+            /* margin-top: 0px; */
+            /* justify-content:center; */
+            border: 1px solid;
+
+        }
+ 
+        .e{
+            display: flex;
+            justify-content: space-between;
+           /* border: 1px solid; */
+           /* margin-left: 100px; */
+           position: fixed;
+            height: 90px;
+            width:100%;
+            margin-top: -300px;
+            background-color:whitesmoke;
+        }
+        .y{
+           /* :hover .y{
+            color: aqua;
+           } */
+           
+             display: flex;
+            /* justify-content: end;  */
+            /* margin-left: 20px; */
+            column-gap: 50px;
+            margin-top: 40px;
+            font-size: x-large;
+           
+            
+            
+        }
+  
+        .d{
+            /* margin-top: 50px; */
+            cursor: pointer;
+            border-radius: 100px;
+            /* padding: 10px; */
+            color:  rgb(10, 95, 129);
+            background-color: white;
+            border-color:rgb(10, 95, 129);
+            /* height: 70px; */
+           
+        }
+        .q{
+            margin-left: 50%;
+            /* border: 1px solid; */
+            margin-top: -400px;
+        }
+        .z{
+            margin-top: 100px;
+            margin-left: 100;
+            border: 1px solid;
+        }
+        .c{
+            margin-top: 300px;
+            color: gray;
+            font-size: larger;
+        }
+        .p{
+            border-radius:50px ;
+            color:  white;
+            background-color:skyblue;
+            border-color: rgb(162, 168, 235);
+           display: flex;
+           justify-content: end;
+           margin-top: -20px;
+           cursor: pointer;
+          
+           /* margin-left: 80%; */
+        }
+        .v{
+            padding-top: 30px;
+            text-align: center;
+            margin-top: 100px;
+            font-size: xx-large;
+        }
+  
+        .k{
+            margin-top: 100px;
+            /* border: 1px solid; */
+            display: flex ;
+            column-gap: 40px;
+            row-gap: 40px;
+        }
+        .g{
+            margin-top: 100px;
+            /* border: 1px solid; */
+            display: flex ;
+            column-gap: 40px;
+            row-gap: 40px;
+        }
+        .u{
+            padding-top: 30px;
+            text-align: center;
+            margin-top: 150px;
+            font-size: xx-large;
+        }
+        .w{
+            border: 1px solid;
+        }
+        .rg{
+            background-image: url(proback1.jpeg);
+            height: 600px;
+            width: 800px;
+            background-repeat: no-repeat;
+            border: 1px solid;
+            background-size: cover;
+            margin-left: 850px;
+            margin-top: -600px;
+        }
+        .pk{
+            background-image: url(images.jpeg);
+            height: 600px;
+            width: 800px;
+            /* background-repeat: no-repeat; */
+            border: 1px solid;
+            background-size: cover;
+            margin-top: 100px;
+       
+        }
+         .er{
+            background-image: url(software.jpeg);
+            height: 600px;
+            width: 800px;
+            margin-top: 50px;
+            background-size: cover;
+            border: 1px solid;
+           
+        } 
+        .hy{
+            background-image: url(website.jpeg);
+            height: 600px;
+            width: 800px;
+            /* margin-top: 100px; */
+            margin-left: 850px;
+            margin-top: -600px;
+            background-size: cover;
+            border: 1px solid;
+        }
+        /* .tc{
+            border: 1px solid;
+            margin-top: 330px;
+            height: 250px;
+            color: gray;
+            background-color: rgba(255, 255, 255, 0.877);
+            margin-left: 20px;
+            margin-right: 20px;
+          
+            text-align: center;
+        } */
+        .rv{
+            border: 1px solid;
+            color: gray;
+            background-color: rgba(255, 255, 255, 0.877);
+            text-align: center;
+            margin-top: 320px;
+            height: 250px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 30px;
+        }
+        .sr{
+            /* margin-left: 5px; */
+            margin-top: 150px;
+            font-size: xx-large;
+        }
+        .pt{
+            margin-left: 52%;
+            margin-top: -120px;
+        }.vt{
+            margin-left: 100px;
+            margin-top: 100px;
+            font-size: xx-large;
+        }
+        .op{
+            margin-left: 50%;
+            margin-top: -250px;
+        }
+        .oc{
+            text-align: center;
+            font-size: xx-large;
+            margin-top: 150px;
+        }
+        .ec{
+            
+            margin-left: 250px;
+            margin-top: 150px;
+            font-size: xx-large;
+        }
+        .vc{
+            border: 1px solid;
+            height: 80px;
+            font-size: xx-large;
+            margin-left: 140px;
+            margin-top: 150px;
+        }
+        .we{
+            margin-left: 70%;
+     
+        }
+   </style>
+</head>
+<body>
+    <div class="e"><div >  <img  src="vebbox.webp" alt="vebbox" height="50px" width="220px" style="margin-left: 100px; margin-top:20px;" ></div>
+      <div class="y"> <div style="Home:hover .y {color: rgb(85, 0, 255);}" >Home </div>
+    <div >Services</div>
+    <div >  Product</div>
+ <div > About Us </div><button class="p"; ><h1>&nbsp;&nbsp;&nbsp;Get Started&nbsp;&nbsp;&nbsp;</h1></button><div></div> </div></div>
+ </div>
+    <div class="r" > <div class="c"><div style="color: black;margin: top -200px;"><h1>Grow your business <br> with VEBBOX</h1></div><h5>We are team of talented developers making<br> Excellent Solutions to business</h5></div>
+    
+    <br><button class="d"; ><h1>&nbsp;&nbsp;&nbsp;Get Started&nbsp;&nbsp;&nbsp;</h1></button><div><div class="q"><img src="backvebbox.jpg"></div></div> 
+    <div class="v"><h3>____SERVICES____</h3></div>
+    <div class="o">Our software development services</div>
+    <div class="k">
+        <div style="border: 1px solid; margin-left: 30px; border-radius: 25px;box-shadow: 20px 20px; "></divstyle> <div> <br><img src="Screenshot 2025-02-28 134205.png"></div><strong>Custom Application <br>Development Services:</strong><br><br>
+            <div style="color: gray;">We rely on our <br>technological expertise<br> and specialized industry<br> experience to develop<br> any type of web, mobile,<br> desktop, and hybrid app <br>per your business<br> requirements.</div></div>
+    <div style="border: 1px solid; margin-left: 30px;border-radius: 25px;box-shadow: 20px 20px;"><div><br> <img src="Screenshot 2025-02-28 134205.png"></div>
+       <strong> App Maintenance Services:</strong><br><br><br>
+        <div style="color: gray;">Our application maintenance <br>and modernization services are<br> designed to ensure the <br>scalability, performance,<br> and sustainability of your<br> entire software infrastructure<br> as your business grows.</div></div>
+    <div style="border: 1px solid; margin-left: 30px;border-radius: 25px;box-shadow: 20px 20px;"><div> <br><img src="Screenshot 2025-02-28 134205.png"></div>
+    <strong>    QA and Software <br>Testing Services:</strong><br><br>
+        <div style="color: gray;">Comprehensive quality<br> assurance is built<br> into our custom software <br>service model, but<br> we can also provide<br> on-demand QA and a <br>suite of functional<br> and usability software<br> tests upon request.</div></div>
+    <div style="border: 1px solid; margin-left: 30px;border-radius: 25px;box-shadow: 20px 20px;"><div><br> <img src="Screenshot 2025-02-28 134205.png"></div>
+        <strong>API Integration Services:</strong><br><br>
+       <div style="color: gray;"> We build and implement <br>custom APIs for all<br> breeds of applications<br>, helping to add functionality<br> to your software systems<br> and facilitate communication<br> between your apps and others.</div></div></div>
+    <div class="g">
+        <div style="border: 1px solid; margin-left: 30px;border-radius: 25px;box-shadow: 20px 20px;"><div><br> <img src="Screenshot 2025-02-28 134205.png"><br>
+            <strong>    IT Security Services:</strong><br>
+                <div style="color: gray;">Our thorough threat<br> audits help us identify<br> your software infrastructure's<br> most pressing vulnerabilities, <br>allowing us to integrate the<br> encryptions, security services<br> and access protocols <br>you require.</div></div>
+    </div>
+    <div style="border: 1px solid; margin-left: 30px;border-radius: 25px;box-shadow: 20px 20px;"><br> <img src="Screenshot 2025-02-28 134205.png"><br>
+    <strong>Software Deployment<br> Services:</strong><br>
+
+   <div style="color: gray;" >Our implementation specialists<br> will work with your IT<br> team to establish detailed<br> software deployment objectives<br> and timelines, covering <br>configuration, testing,<br> project governance,<br> troubleshooting and more.</div>
+</div>
+<div style="border: 1px solid; margin-left: 30px;border-radius: 25px;box-shadow: 20px 20px;"> <br><img src="Screenshot 2025-02-28 134205.png"><br>
+   <strong> Software Migration<br> Services:</strong><br>
+   <div style="color: gray;"> We perform cloud-based<br> migrations, system upgrades<br> and other vital software<br> modernization services<br> prioritizing system<br> uptime and data integrity throughout an <br>often daunting IT <br>transition.</div></div>
+    <div style="border: 1px solid; margin-left: 30px;border-radius: 25px;box-shadow: 20px 20px;"> <br><img src="Screenshot 2025-02-28 134205.png"><br>
+        <strong>   Data Backup and Recovery Services:</strong><br>
+       <div style="color: gray;"> We implement robust<br> data backup and recovery<br> strategies for cloud-based,<br> on-premises and hybrid<br> servers, designed to <br>ensure the integrity of<br> your data and the<br> continuity of your business.</div>
+        </div></div>
+<div class="u">____PRODUCTS____</div>  
+<div style=" color: rgb(53, 48, 48);text-align: center;">People don't buy products, they buy solutions</div>
+<div>
+<div class="pk">
+    <div class="tc"> 
+    <div class=rv><div style="text-align: center; color: black; margin-top: 20px; border-radius: 30px;"><strong>Data Analyzer</strong> <br><br></div>The systematic application of statistical and logical<br> techniques to describe the data scope, modularize the data structure illustrate via images, tables, and graphs.</div></div>
+</div>
+<div class="rg" >
+<div class="rv">
+    <div style="text-align: center; color: black; margin-top: 20px; border-radius: 30px;"><strong>Websites</strong> <br><br></div> 
+    We create a enhanced website, customers can easily access information about your business. They can see what products or services you sell, your prices, your location and much more.</div</div></div></div>
+</div>
+<div style="border: 1px  solid; margin-top: 80px;">  
+<div class="er" ><div style="border-radius: 30px;background-color: rgba(255, 255, 255, 0.877); height: 250px; margin-top: 320px; margin-left: 20px;margin-right: 20px;"> <div style="text-align: center;margin-top: 20px ; margin-top: 20px;"><strong>Billing Software</strong><br><br></div>
+<div style="text-align: center;color: gray;"> A billing software can be any software designed to handle time and billing tracking as well as invoicing customers for services and products.</div></div> </div>
+<div class="hy">   <div style=" border-radius: 30px; background-color: rgba(255, 255, 255, 0.877); height: 250px; margin-top: 320px; margin-left: 20px;margin-right: 20px;"> <div style="text-align: center;margin-top: 20px;"><strong>Industrial Trainings</strong><br><br></div>
+<div style="text-align: center;color: gray;">
+    Our Industrial Training is to expose the students to actual working environment and enhance their knowledge and skill from what they have learned in the college.</div></div> </div></div>
+<div style="text-align: center; margin-top: 150px; font-size: xx-large;padding-top: 30px;"><strong>____ABOUT US____</strong></div>    
+<div style="margin-top: 100px;color: gray;">
+    <div >We are consummate custom software Development <br> company delivering splendid business IT Solutions<br> and related services to customers across<br> the globe. Our development services are led<br> by our dedicated and passionate team to<br> provide best industry practices combined<br> with technology expertise and business domain<br> knowledge to drive digital transformation.</div>
+    <div style="margin-left: 60%; margin-top: -300px;">Our proficiency in understanding business<br> challenges and professional competence allows us <br>to create a better experience for our<br> customers. Our efforts focus on concept,<br> design, development and re-engineering of web<br> businesses. We are working closely with<br> software majors on new applications.</div>
+</div>
+<div style="text-align: center; margin-top: 150px;"> <img src="counts-img.svg"></div>
+<div class="sr">
+    <div><img src="25.png" style="text-align: center;"></div>
+<strong>Happy Clients</strong> <div style="color: gray;">A satisfied customer is the best bussiness goal.</div></div>
+<div class="pt"><div><img src="135.png" style="text-align: center;"></div>
+<strong>Projects</strong> <div style="color: gray;"> we build projects with satisfied customers</div></div></div>
+<div class="vt"><div><img src="12.png" style="text-align: center;"></div>
+<strong>Working Technologies</strong> <div style="color: gray;">  We help enterprises accelerate adoption of new<br> technologies, produce innovation.</div></div></div>
+<div class="op"><div class="vt"><div><img src="252.png" style="text-align: center;"></div>
+<strong>Developers</strong> <div style="color: gray;"> Our skilled technicians and engineers to implement the new technologies.</div></div></div></div>
+<div class="oc"><strong>____CONTACT US____</strong></div>
+<div class="ec">
+    <div style="margin-left: -140px;"><strong>VEBBOX</strong><br>
+    Our mission is to enhance business<br> growth of our customers with creative<br> design, development and to deliver<br> market defining high quality solutions that <br>create value and reliable competitive<br> advantage to customers around the globe.</div>
+    <div style="margin-top: 40px; font-size:xx-large; margin-left: -150px;" > <img src="insta.png"></div>
+    <div style="margin-left: 40%; margin-top: -300px;"><img src="location.png">
+        72, Second floor,<br> Kumbeswaran E St, South <br>Street,
+        Kumbakonam,<br> Tamil Nadu 612001</div>
+        <div style="margin-left: 40%; margin-top: 40px;"><img src="location.png">
+            568, Kurinji Nagar, New<br> housing unit, Thanjavur,<br> 613 005.</div>
+            <div class="we"> <input type="text"></div>
+            <div style="margin-top: 40px; margin-left: 40%;"><img src="location.png">
+                87 first cross<br> street,Yeshwanth <br>nagar,Madambakkam,Chennai<br>-600126.</div>
+                <div style="margin-top: 40px; margin-left: 40%;"><img src="mail.png">
+                    info@vebbox.in</div>
+                    <div style="margin-top: 40px; margin-left: 40%;"><img src="call.png">
+                        +91 63793 21835</div>
+</div>
+<div class="vc">© Copyright <strong>VEBBOX SOFTWARE SOLUTIONS</strong> . All Rights Reserved<br>
+    Designed by vebbox software solutions</div>
+</html>
